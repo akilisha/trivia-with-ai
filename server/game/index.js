@@ -61,7 +61,7 @@ module.exports = (server) => {
             // No public roomListUpdate broadcast, games are invitational-only
         });
 
-        socket.on("joinGame", (roomId, playerName, callback) => { // Renamed from joinRoom
+        socket.on("joinGame", (roomId, playerName, callback) => {
             const room = gameRooms[roomId];
             if (room && room.state === "waiting_for_players") {
                 // Check if player already in room (e.g., reconnect)
