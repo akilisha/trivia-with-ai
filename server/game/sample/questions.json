@@ -1,0 +1,62 @@
+[
+    {
+        "category": "Science",
+        "question": "What is the chemical symbol for water?",
+        "correct_answer": "H2O",
+        "incorrect_answers": ["CO2", "O2", "N2"]
+    },
+    {
+        "category": "History",
+        "question": "Who was the first person to step on the Moon?",
+        "correct_answer": "Neil Armstrong",
+        "incorrect_answers": ["Buzz Aldrin", "Michael Collins", "Yuri Gagarin"]
+    },
+    {
+        "category": "Geography",
+        "question": "What is the capital of Japan?",
+        "correct_answer": "Tokyo",
+        "incorrect_answers": ["Beijing", "Seoul", "Bangkok"]
+    },
+    {
+        "category": "Pop Culture",
+        "question": "Which movie features a character named Darth Vader?",
+        "correct_answer": "Star Wars",
+        "incorrect_answers": ["Star Trek", "Lord of the Rings", "Avatar"]
+    },
+    {
+        "category": "Sports",
+        "question": "How many players are on a standard football (soccer) team?",
+        "correct_answer": "11",
+        "incorrect_answers": ["9", "10", "12"]
+    },
+    {
+        "category": "Science",
+        "question": "What is the largest planet in our solar system?",
+        "correct_answer": "Jupiter",
+        "incorrect_answers": ["Saturn", "Mars", "Earth"]
+    },
+    {
+        "category": "History",
+        "question": "In which year did the Titanic sink?",
+        "correct_answer": "1912",
+        "incorrect_answers": ["1905", "1918", "1923"]
+    },
+    {
+        "category": "Geography",
+        "question": "Which desert is the largest hot desert in the world?",
+        "correct_answer": "Sahara Desert",
+        "incorrect_answers": ["Gobi Desert", "Arabian Desert", "Kalahari Desert"]
+    },
+    {
+        "category": "Pop Culture",
+        "question": "Who sings the song 'Bohemian Rhapsody'?",
+        "correct_answer": "Queen",
+        "incorrect_answers": ["The Beatles", "Led Zeppelin", "Pink Floyd"]
+    },
+    {
+        "category": "Sports",
+        "question": "What sport is known as the 'king of sports'?",
+        "correct_answer": "Football (Soccer)",
+        "incorrect_answers": ["Basketball", "Baseball", "Tennis"]
+    }
+]

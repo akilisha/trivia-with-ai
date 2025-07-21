@@ -1,0 +1,110 @@
+[
+    {
+        "id": "q001",
+        "category": "Science",
+        "type": "multiple_choice",
+        "question": "What is the chemical symbol for water?",
+        "correct_answer": "H2O",
+        "incorrect_answers": ["CO2", "O2", "N2"],
+        "points": 100,
+        "media_type": "text"
+    },
+    {
+        "id": "q002",
+        "category": "History",
+        "type": "multiple_choice",
+        "question": "Who was the first person to step on the Moon?",
+        "correct_answer": "Neil Armstrong",
+        "incorrect_answers": ["Buzz Aldrin", "Michael Collins", "Yuri Gagarin"],
+        "points": 100,
+        "media_type": "text"
+    },
+    {
+        "id": "q003",
+        "category": "Geography",
+        "type": "numeric_answer",
+        "question": "What is the approximate circumference of the Earth at the equator, in kilometers?",
+        "correct_answer": 40075,
+        "acceptable_range_min": 39000,
+        "acceptable_range_max": 41000,
+        "points": 150,
+        "media_type": "text"
+    },
+    {
+        "id": "q004",
+        "category": "Pop Culture",
+        "type": "image_question",
+        "question": "Identify this iconic movie character.",
+        "image_url": "/assets/vader.png",
+        "correct_answer": "Darth Vader",
+        "incorrect_answers": ["Kylo Ren", "Spock", "Magneto"],
+        "points": 120,
+        "media_type": "image"
+    },
+    {
+        "id": "q005",
+        "category": "Sports",
+        "type": "multiple_choice",
+        "question": "How many players are on a standard football (soccer) team?",
+        "correct_answer": "11",
+        "incorrect_answers": ["9", "10", "12"],
+        "points": 80,
+        "media_type": "text"
+    },
+    {
+        "id": "q006",
+        "category": "Science",
+        "type": "ordered_list",
+        "question": "List the four inner (rocky) planets of our solar system in order from closest to the Sun to furthest.",
+        "correct_answer": ["Mercury", "Venus", "Earth", "Mars"],
+        "aliases": {
+            "Earth": ["The Earth"],
+            "Mars": ["The Mars"],
+            "Mercury": ["The Mercury"],
+            "Venus": ["The Venus"]
+        },
+        "points": 200,
+        "media_type": "text",
+        "expected_list_length": 4
+    },
+    {
+        "id": "q007",
+        "category": "History",
+        "type": "fill_in_the_blank",
+        "question": "The Declaration of Independence was signed in ____.",
+        "correct_answer": "1776",
+        "points": 100,
+        "media_type": "text"
+    },
+    {
+        "id": "q008",
+        "category": "Geography",
+        "type": "multiple_choice",
+        "question": "Which is the largest hot desert in the world?",
+        "correct_answer": "Sahara Desert",
+        "incorrect_answers": ["Gobi Desert", "Arabian Desert", "Kalahari Desert"],
+        "points": 90,
+        "media_type": "text"
+    },
+    {
+        "id": "q009",
+        "category": "Music",
+        "type": "audio_question",
+        "question": "Listen to the song and identify the artist.",
+        "audio_url": "/assets/bohemian_rhapsody_clip.mp3",
+        "correct_answer": "Queen",
+        "incorrect_answers": ["The Beatles", "Led Zeppelin", "Pink Floyd"],
+        "points": 130,
+        "media_type": "audio"
+    },
+    {
+        "id": "q010",
+        "category": "Pop Culture",
+        "type": "pick_odd_one_out",
+        "question": "Which of these is NOT a DC Comics character?",
+        "choices": ["Superman", "Batman", "Spider-Man", "Wonder Woman"],
+        "correct_answer": "Spider-Man",
+        "points": 110,
+        "media_type": "text"
+    }
+]

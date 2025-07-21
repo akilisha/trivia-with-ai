@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "description": "A little fun competition to bring veryone together",
+  "name": "roya-trivia",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "serve": "webpack serve --mode=development",
+    "watch": "webpack --watch",
+    "server:dev": "npm run debug -w server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "autoprefixer": "^10.4.21",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2",
+    "workbox-webpack-plugin": "^7.3.0"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0",
+    "socket.io-client": "^4.8.1"
+  }
+}
