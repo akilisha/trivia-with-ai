@@ -4,6 +4,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -25,7 +26,12 @@ const config = {
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
-            favicon: "public/img/favicon.png"
+            favicon: "public/favicon.png"
+        }),
+        new CopyPlugin({
+            patterns: [
+                { from: "public/assets", to: "assets" },
+            ],
         }),
 
         // Add your plugins here
@@ -49,7 +55,7 @@ const config = {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
                 type: 'asset',
             },
-            
+
             {
                 test: /\.html$/i,
                 use: ['html-loader'],
@@ -64,12 +70,12 @@ const config = {
 module.exports = () => {
     if (isProduction) {
         config.mode = 'production';
-        
+
         config.plugins.push(new MiniCssExtractPlugin());
-        
-        
+
+
         config.plugins.push(new WorkboxWebpackPlugin.GenerateSW());
-        
+
     } else {
         config.mode = 'development';
     }
